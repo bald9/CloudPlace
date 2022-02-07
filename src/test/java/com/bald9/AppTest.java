@@ -25,11 +25,7 @@ public class AppTest
     }
     @Test
     public void main1(){
-        HashMap<String, String> s = new HashMap<>();
-        s.put(null,"nullvalue");
-        for (String s1 : s.keySet()) {
-            System.out.println(s1+s.get(s1));
-        }
+
     }
 
 
